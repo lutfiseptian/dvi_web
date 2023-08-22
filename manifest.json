@@ -1,11 +1,11 @@
 {
-    "name": "DVI247",
-    "short_name": "DVI247",
+    "name": "dvi",
+    "short_name": "dvi",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Pembayaran Pulsa Dengan Mudah",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
