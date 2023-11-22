@@ -9143,7 +9143,7 @@ i=A.c7(m,i,t.fw)
 s=J.K7(10,l)
 for(r=0;r<10;r=q){q=r+1
 s[r]="Item "+q}m=$.b2()
-return new A.QC(i,s,A.c7(m,A.k8(),t.d),A.c7(m,A.kJ(),t.ZR),[p,"assets/images/banner1.jpg"],B.m)},
+return new A.QC(i,s,A.c7(m,A.k8(),t.d),A.c7(m,A.kJ(),t.ZR),[p,"assets/images/freefire_banner.jpg","assets/images/pubg_banner.jpg"],B.m)},
 xi:function xi(a){this.a=a},
 QC:function QC(a,b,c,d,e,f){var _=this
 _.d=a
