@@ -46067,7 +46067,7 @@ alg(a){var s=0,r=A.N(t.H),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$zQ=A.O(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.Q(A.jA(null,"/get/trx?id:"+a).jd(0),$async$zQ)
+return A.Q(A.jA(null,"/get/trx?id="+a).jd(0),$async$zQ)
 case 7:m=c
 j=m
 l=B.a_.hq(0,A.kK(J.Z(A.kG(j.e).c.a,"charset")).d7(0,j.w),null)
@@ -47080,7 +47080,7 @@ s=q}while(true)switch(s){case 0:q=2
 l=n.a.e
 k=l.dx
 s=5
-return A.Q(l.zQ(J.aA(k.gl(k).a)),$async$$0)
+return A.Q(l.zQ(J.aA(k.gl(k).c)),$async$$0)
 case 5:o.push(4)
 s=3
 break
@@ -47091,7 +47091,7 @@ if(!l.gac(l)){m=J.Z(l.gl(l),0).db
 if(J.d(m,"Belum di bayar"))A.aHI(n.b,"Informasi","Transaksi belum dibayar.")
 else{k=n.b
 if(J.d(m,"berhasil"))A.aHJ(k,"Berhasil","trxId: "+A.h(J.Z(l.gl(l),0).dx)+"\nstatus: "+A.h(J.Z(l.gl(l),0).db))
-else A.axe(k,"Gagal","Status transaksi: "+A.h(m))}}else A.axe(n.b,"Gagal","Gagal mendapatkan data QRIS.")
+else A.axe(k,"Pending","Status transaksi: "+A.h(m))}}else A.axe(n.b,"Gagal","Gagal mendapatkan data QRIS.")
 s=o.pop()
 break
 case 4:return A.L(null,r)
