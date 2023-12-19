@@ -47088,10 +47088,10 @@ case 2:o=[1]
 case 3:q=1
 l=n.a.e.cy
 if(!l.gac(l)){m=J.Z(l.gl(l),0).db
-if(J.d(m,"Belum di bayar"))A.aHI(n.b,"Informasi","Transaksi belum dibayar.")
+if(J.d(m,"Unpaid"))A.aHI(n.b,"Informasi","Transaksi belum dibayar.")
 else{k=n.b
-if(J.d(m,"berhasil"))A.aHJ(k,"Berhasil","trxId: "+A.h(J.Z(l.gl(l),0).dx)+"\nstatus: "+A.h(J.Z(l.gl(l),0).db))
-else A.axe(k,"Pending","Status transaksi: "+A.h(m))}}else A.axe(n.b,"Gagal","Gagal mendapatkan data QRIS.")
+if(J.d(m,"Paid"))A.aHJ(k,"Informasi Pembayaran","trxId: "+A.h(J.Z(l.gl(l),0).dx)+"\nstatus: "+A.h(J.Z(l.gl(l),0).db))
+else A.axe(k,"Informasi Pembayaran","Status transaksi: "+A.h(m))}}else A.axe(n.b,"Gagal","Gagal mendapatkan data QRIS.")
 s=o.pop()
 break
 case 4:return A.L(null,r)
